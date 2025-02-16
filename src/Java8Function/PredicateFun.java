@@ -14,13 +14,8 @@ public class PredicateFun {
             System.out.println(numbercheck.test(e));
         });
 
-        int sum = list.stream().filter(numbercheck).mapToInt(n -> n).sum();
+        int sum = list.stream().filter(numbercheck).mapToInt(n -> n).max().getAsInt();
         System.out.println(sum);
-
-
-
-
-
 
 
     }
