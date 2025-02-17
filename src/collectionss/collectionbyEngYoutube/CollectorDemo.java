@@ -1,10 +1,8 @@
-package Java8Function;
+package collectionss.collectionbyEngYoutube;
 
 
 import Java8Function.streamjava.Student;
-import com.sun.source.tree.Tree;
 
-import java.awt.*;
 import java.util.*;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,7 +13,7 @@ public class CollectorDemo {
     public static void main(String[] args) {
 
 
-        LinkedList
+
 
         List<Student> students = Arrays.asList(
                 new Student("Alice", "123 Apple St"),

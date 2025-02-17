@@ -15,10 +15,10 @@ public class PrimitivesStream {
         int min = Arrays.stream(numbers).min().getAsInt();
         System.out.println(min);
         String aa[] =new String[]{"dghhd"};
-        Stream<Integer> stream = (Stream<Integer>) Arrays.stream(numbers);
+       // Stream<Integer> stream = (Stream<Integer>) Arrays.stream(numbers);
 
 
-        List<Integer> list=new ArrayList<>();
+        //List<Integer> list=new ArrayList<>();
 
 
 
