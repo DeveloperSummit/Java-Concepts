@@ -26,7 +26,7 @@ public class lockMain  {
             }
         };
 
-
+  
 
         Thread thread1=new Thread(runnable,"Thread 1");
         Thread thread2=new Thread(runnable,"Thread 2");
